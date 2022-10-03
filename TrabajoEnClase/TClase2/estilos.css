@@ -1,0 +1,28 @@
+.rojo {
+    margin: auto;
+    padding: 50px;
+    width: 600px;
+    height: 50px;
+    background: red;
+}
+
+.amarillo {
+    margin: auto;
+    padding: 50px;
+    width: 600px;
+    height: 50px;
+    background: yellow;
+}
+
+.verde {
+    margin: auto;
+    padding: 50px;
+    width: 600px;
+    height: 50px;
+    background: green;
+}
+
+.container{
+    margin: auto;
+    
+}
