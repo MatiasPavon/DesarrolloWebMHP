@@ -1,0 +1,180 @@
+* {
+    
+    margin:0;
+ }
+
+ .fondo{
+    background-color: rgb(18, 187, 159);
+ }
+ 
+ .contenedor {
+    display: flex;
+    background-color: rgb(18, 187, 159);
+    width: 900px;
+    margin:auto;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+    align-items: baseline;
+ }
+
+ .fondo1{
+    background-color: rgb(110, 39, 168);
+ }
+ 
+ .contenedor1 {
+    display: flex;
+    background-color: rgb(110, 39, 168);
+    width: 900px;
+    margin:auto;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+    align-items: baseline;
+ }
+
+ .fondo2{
+    background-color: rgb(7, 82, 196);
+ }
+ 
+ .contenedor2 {
+    display: flex;
+    background-color: rgb(7, 82, 196);
+    width: 900px;
+    margin:auto;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+    align-items: baseline;
+ }
+
+ .fondo3{
+    background-color: rgb(206, 209, 30);
+ }
+ 
+ .contenedor3 {
+    display: flex;
+    background-color: rgb(206, 209, 30);
+    width: 900px;
+    margin:auto;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+    align-items: baseline;
+ }
+
+ .fondo4{
+    background-color: rgb(177, 7, 50);
+ }
+ 
+ .contenedor4 {
+    display: flex;
+    background-color: rgb(177, 7, 50);
+    width: 900px;
+    margin:auto;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+    align-items: baseline;
+ }
+ 
+ .encabezado {
+    display: flex;
+    margin:auto;
+    width: 900px;
+    /* display:inline-block; */
+    border: 1px solid black; 
+    align-items: center;
+ }
+ .logo {
+    flex-basis:100px;
+    display:flex;
+    justify-content: center;
+    
+ }
+ 
+ .titulo {
+    width: 700px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ #escudo{
+    width:40px;
+ 
+    
+ }
+ .seccion {
+    display: flex;
+    margin:auto;
+    width: 100%;
+    
+    border: 1px solid black; 
+    /*align-items: center;*/
+ }
+ .izquierda{
+    background-color: rgb(255, 255, 255);
+    flex-basis:150px;
+    
+ 
+   
+ }
+ .contenido{
+    border: 1px solid black;
+    padding:10px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+ }
+ 
+ ul.menuvertical {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border-left: 1px solid #7C7C7C;
+    flex-direction: column;
+ }
+ ul.menuvertical li a {
+    padding: 5px;
+    display: block;
+ }
+ 
+ ul.menuvertical li a:link,
+ ul.menuvertical li a:visited {
+    margin: 2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    border-top: 1px solid #7C7C7C;
+    border-right: 1px solid #7C7C7C;
+    border-bottom: 1px solid #9C9C9C;
+ }
+ 
+ ul.menuvertical li a:hover {
+    background-color: rgb(136, 136, 136);
+ }
+ 
+ ul.menuhorizontal{
+    visibility: hidden;
+    width: auto;
+    border-left: 1px solid #7C7C7C;
+ }
+ ul.menuhorizontal li {
+    text-align: center;
+    width: auto;
+    display: inline;
+    
+ }
+ ul.menuhorizontal li a:link,
+ ul.menuhorizontal li a:visited
+ {
+    padding: .3em;
+    
+    text-decoration: none;
+    color: #333;
+    background: #F4F4F4;
+    border-top: 1px solid #7C7C7C;
+    border-right: 1px solid #7C7C7C;
+    border-bottom: 1px solid #9C9C9C;
+    
+ }
+ ul.menuhorizontal li a:hover{
+    background-color: #FC0;
+ }
+
+
