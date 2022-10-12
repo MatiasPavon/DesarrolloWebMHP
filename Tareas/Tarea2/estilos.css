@@ -110,10 +110,10 @@
  }
  .izquierda{
     background-color: rgb(255, 255, 255);
-    flex-basis:150px;
-    
- 
-   
+    flex-basis:150px; 
+
+
+
  }
  .contenido{
     border: 1px solid black;
