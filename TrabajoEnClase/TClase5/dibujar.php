@@ -7,21 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-    <?php
-    $n=$_POST['n'];
-    $m=$_POST['m'];
-    $cont=0;
-    for($i=0;$i<$n;$i++){
-        echo "<tr>" ; 
-        for($i=0;$i<$m;$i++){
-            $cont++;
-            echo "<td>$cont</td>";
+    <table border="1">
+        <?php
+        $n= $_POST['n'];
+        $m= $_POST['m'];
+        $cont=0;
+        for($i=0;$i<$n;$i++){
+            echo "<tr>";
+            for($j=0;$j<$m;$j++){
+                $cont++;
+                echo "<td>$cont</td>";
+            }
+            echo "</tr>";
         }
-        
-    }
-    echo "</tr>"; 
-    ?>
+        ?>
     </table>
 </body>
 </html>

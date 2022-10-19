@@ -11,9 +11,9 @@
     $n=$_POST['n'];
     $sum=0;
     for($i=0;$i<$n;$i++){
-        $sum=$sum+$_POST['sumando'.$i];
+        $sum=$sum+$_POST["sumando'.$i.'"];
     }
-    echo "Resultado es $sum";
+    echo "Resultado es".$sum;
     ?>
 </body>
 </html>

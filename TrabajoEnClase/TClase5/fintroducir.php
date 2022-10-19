@@ -10,12 +10,12 @@
     <form action="resultado.php" method="POST">
     <?php
     $n=$_POST['n'];
-    for($i=0;$i<$n;$i++){ ?>
-        <input type="text" name="sumando <?php echo $i ?>">
-        <?php
+    for($i=0;$i<$n;$i++){ 
+        echo '<input type="number" name=" sumando'.$i.' ">';
     }
+    echo '<input type="hidden" name="n" value=" '.$n.' ">';
+    echo '<input type="submit" value="sumar">';
     ?>
-    <input type="submit" value="<?php echo $n ?>">
     </form>
 </body>
 </html>
