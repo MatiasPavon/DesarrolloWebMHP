@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+.bg-orange th{
+    background-color: #e36c0a;
+}
+
+.tamaño {
+    width: 170px;
+}
