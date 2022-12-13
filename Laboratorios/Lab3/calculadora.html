@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>N=<input type="text" name="cadena" id="cadena"><br></td>
+            <td>
+                <input class="azul" type="button" value="Calcular" onclick="calcularFactorial()"><br>
+                
+            </td>
+        </tr>
+        <tr>
+            <td><input class="grande" type="text" name="cadena" id="cadena"><br></td>
+            <td>
+                
+                <input class="azul" type="button" value="1" onclick="digito('1')">
+                <input class="azul" type="button" value="2" onclick="digito('2')">
+                <input class="azul" type="button" value="3" onclick="digito('3')"><br>
+                <input class="azul" type="button" value="4" onclick="digito('4')">
+                <input class="azul" type="button" value="5" onclick="digito('5')">
+                <input class="azul" type="button" value="6" onclick="digito('6')"><br>
+                <input class="azul" type="button" value="7" onclick="digito('7')">
+                <input class="azul" type="button" value="8" onclick="digito('8')">
+                <input class="azul"type="button" value="9" onclick="digito('9')"><br>
+    
+                <input class="azul" type="button" value="0" onclick="digito('0')">
+                <input class="azul" type="button" value="Limpiar" onclick="digito('Limpiar')">
+            </td>
+        </tr>
+    </table>
+
+
+    <p id="calculo">Resultado: </p>
+
+    <script>
+        function digito(digito){
+            var cadena = document.getElementById("cadena").value;
+            if(digito == "Limpiar"){
+                document.getElementById("cadena").value = "";
+            }else{
+                document.getElementById("cadena").value = cadena + digito;
+            }
+        }
+
+        function calcularFactorial() {
+            let numero = document.getElementById('cadena').value;
+            let total = 1;
+            for (let i = 1; i <= numero; i++) {
+                total *= i;
+            }
+            document.getElementById('calculo').innerHTML = "Resultado: " + total;
+        }
+    </script>
+</body>
+</html>
